@@ -1,0 +1,31 @@
+h3 {
+
+    font-size: medium;
+}
+
+.btn-success:hover {
+
+    background-color: rgb(87, 179, 236);
+}
+
+.btn-info:hover {
+
+    background-color: rgb(50, 187, 45);
+}
+
+canvas {
+
+    animation-name: tatoo;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes tatoo {
+
+    /*from{box-shadow: 1px 1px 38px rgb(0, 0, 250);}
+    to{box-shadow: 1px 1px 38px rgb(91, 224, 50);}*/
+    0% {box-shadow:1px 1px 38px rgb(55, 161, 13);}
+     25% {box-shadow:1px 1px 38px rgb(17, 226, 191);} 
+     50% {box-shadow:1px 1px 38px rgb(37, 37, 146);} 
+     100% {box-shadow:1px 1px 38px rgb(213, 10, 231);}
+}
